@@ -1,0 +1,5 @@
+[qa-environments]
+qa.ansible-demo.beesshop.org
+
+[dev-environments]
+dev.ansible-demo.beesshop.org

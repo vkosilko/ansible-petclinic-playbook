@@ -1,0 +1,10 @@
+---
+# This playbook deploys a simple standalone Tomcat 7 server. 
+
+- hosts: dev-environments 
+  user: ubuntu
+  sudo: yes
+
+  roles:
+    - tomcat
+    - deploy

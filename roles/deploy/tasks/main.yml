@@ -1,0 +1,6 @@
+---
+- name: deploy application
+  get_url: url=http://jenkins.ansible-demo.beesshop.org:8080/job/1-Petclinic-app-Artifact/lastSuccessfulBuild/artifact/target/petclinic.war dest=/var/lib/tomcat7/webapps/
+
+- name: Restart Tomcat
+  service: name=tomcat7 state=restarted enabled=yes
