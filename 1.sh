@@ -1,2 +1,2 @@
 read $1
-echo "Variable:"
+echo "Variable: $1"
