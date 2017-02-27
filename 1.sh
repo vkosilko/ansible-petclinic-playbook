@@ -1,1 +1,2 @@
-touch /opt/output.txt
+read $1
+echo "Variable:"
