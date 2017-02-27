@@ -1,1 +1,1 @@
-echo "hello world"
+touch /opt/output.txt
